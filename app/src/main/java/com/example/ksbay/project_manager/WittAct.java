@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.content.Intent;
 
 public class WittAct extends AppCompatActivity {
 
@@ -26,6 +27,9 @@ public class WittAct extends AppCompatActivity {
         });
     }
     public void WittButt()
-    {}
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 
 }
