@@ -19,15 +19,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ksbay.project_manager.MainActivity" />
-        </activity>
-        <activity
             android:name=".WittAct"
             android:label="@string/title_activity_witt"
             android:theme="@style/AppTheme.NoActionBar"></activity>
