@@ -17,5 +17,6 @@
         android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="gotoConversions"/>
+        android:onClick="gotoConversions"
+        android:layout_marginTop="40dp" />
 </RelativeLayout>
