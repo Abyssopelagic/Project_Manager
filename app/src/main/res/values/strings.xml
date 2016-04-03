@@ -2,4 +2,5 @@
     <string name="app_name">Project_Manager</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_witt">WittAct</string>
+    <string name="title_activity_calculator">Calculator</string>
 </resources>

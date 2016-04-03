@@ -21,7 +21,16 @@
         <activity
             android:name=".WittAct"
             android:label="@string/title_activity_witt"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ksbay.project_manager.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
