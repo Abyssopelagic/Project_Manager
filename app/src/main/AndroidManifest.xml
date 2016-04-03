@@ -31,6 +31,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ksbay.project_manager.MainActivity" />
         </activity>
+        <activity
+            android:name=".Conversions"
+            android:label="@string/title_activity_conversions"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ksbay.project_manager.MainActivity" />
+        </activity>
+        <activity android:name=".ConversionList"></activity>
     </application>
 
 </manifest>

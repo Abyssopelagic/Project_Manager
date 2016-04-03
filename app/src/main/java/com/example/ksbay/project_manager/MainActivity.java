@@ -32,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (this, Calculator.class);
         startActivity(intent);
     }
-
+    public void gotoConversionList (View view) {
+        Intent intent = new Intent(this, ConversionList.class);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
