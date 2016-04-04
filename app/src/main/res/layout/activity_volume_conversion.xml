@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.ksbay.project_manager.Conversions">
+    tools:context="com.example.ksbay.project_manager.VolumeConversion">
 
-    <include layout="@layout/content_conversions" />
-
+    <include layout="@layout/content_volume_conversion" />
 
 </android.support.design.widget.CoordinatorLayout>
