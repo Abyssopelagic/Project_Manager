@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="volume_conversions">
+        <item>gallon</item>
+        <item>mm</item>
+        <item>cm</item>
+        <item>ml</item>
+        <item>L</item>
+        <item>M</item>
+        <item>in</item>
+        <item>oz</item>
+        <item>pt</item>
+        <item>qt</item>
+        <item>ft</item>
+        <item>yd</item>
+    </string-array>
+</resources>
