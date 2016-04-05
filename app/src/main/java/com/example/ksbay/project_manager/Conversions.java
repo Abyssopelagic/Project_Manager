@@ -77,7 +77,7 @@ public class Conversions extends AppCompatActivity implements OnItemSelectedList
 
     public double ConvertResult(String from){
 
-        
+
 
         return Double.parseDouble(from)*5280;
     }

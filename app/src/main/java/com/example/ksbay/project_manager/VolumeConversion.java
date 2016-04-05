@@ -35,29 +35,29 @@ public class VolumeConversion extends AppCompatActivity {
 
         switch(toConvert)
         {
-            case "gallon": initialToLiter=numberFrom * 3.76;
+            case "gallon (gal)": initialToLiter=numberFrom * 3.76;
                 break;
-            case "mm": initialToLiter=numberFrom/1000000;
+            case "cubic millimeters (mm^3)": initialToLiter=numberFrom/1000000;
                 break;
-            case "cm": initialToLiter=numberFrom/1000;
+            case "cubic centimeters (cm^3)": initialToLiter=numberFrom/1000;
                 break;
-            case "ml": initialToLiter=numberFrom/1000;
+            case "cubic milliliters (mL)": initialToLiter=numberFrom/1000;
                 break;
-            case "L": initialToLiter=numberFrom;
+            case "Liter (L)": initialToLiter=numberFrom;
                 break;
-            case "M": initialToLiter=numberFrom*1000;
+            case "cubic meters (m^3)": initialToLiter=numberFrom*1000;
                 break;
-            case "in": initialToLiter=numberFrom*0.0164;
+            case "cubic inches (in^3)": initialToLiter=numberFrom*0.0164;
                 break;
-            case "oz": initialToLiter=numberFrom*0.0296;
+            case "ounces (oz)": initialToLiter=numberFrom*0.0296;
                 break;
-            case "pt": initialToLiter=numberFrom*0.47;
+            case "pint (pt)": initialToLiter=numberFrom*0.47;
                 break;
-            case "qt": initialToLiter=numberFrom*0.95;
+            case "quart (qt)": initialToLiter=numberFrom*0.95;
                 break;
-            case "ft": initialToLiter=numberFrom*28.32;
+            case "cubic feet (ft^3)": initialToLiter=numberFrom*28.32;
                 break;
-            case "yd": initialToLiter=numberFrom*764.56;
+            case "cubic yards (yd^3)": initialToLiter=numberFrom*764.56;
                 break;
         }
 
