@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="volume_conversions">
-        <item>gallon</item>
-        <item>mm</item>
-        <item>cm</item>
-        <item>ml</item>
-        <item>L</item>
-        <item>M</item>
-        <item>in</item>
-        <item>oz</item>
-        <item>pt</item>
-        <item>qt</item>
-        <item>ft</item>
-        <item>yd</item>
+        <item>gallon (gal)</item>
+        <item>Liter (L)</item>
+        <item>ounces (oz)</item>
+        <item>pint (pt)</item>
+        <item>quart (qt)</item>
+        <item>cubic meters (m^3)</item>
+        <item>cubic millimeters (mm^3)</item>
+        <item>cubic centimeters (cm^3)</item>
+        <item>cubic milliliters (mL)</item>
+        <item>cubic inches (in^3)</item>
+        <item>cubic feet (ft^3)</item>
+        <item>cubic yards (yd^3)</item>
+    </string-array>
+
+    <string-array name="length_conversions">
+        <item>inch (in)</item>
+        <item>foot (ft)</item>
+        <item>yard (yd)</item>
+        <item>centimeter (cm)</item>
+        <item>meter (m)</item>
+        <item>kilometer (km)</item>
+        <item>mile (mi)</item>
+    </string-array>
+
+    <string-array name="area_conversions">
+    <item>square inches (in^2)</item>
+    <item>square feet (ft^2)</item>
+    <item>square yards (yd^2)</item>
+    <item>square centimeters (cm^2)</item>
+    <item>square meters (m^2)</item>
+    <item>square kilometers (km^2)</item>
+    <item>square miles (mi^2)</item>
+
     </string-array>
 </resources>

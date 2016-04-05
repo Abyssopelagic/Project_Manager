@@ -50,6 +50,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ksbay.project_manager.ConversionList" />
         </activity>
+        <activity android:name=".LengthConversion"></activity>
     </application>
 
 </manifest>

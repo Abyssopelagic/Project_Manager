@@ -12,12 +12,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Area"
+        android:text="Length"
         android:id="@+id/textView5"
         android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="gotoConversions"
+        android:onClick="gotoLengthConversions"
         android:layout_marginTop="100dp" />
 
     <TextView

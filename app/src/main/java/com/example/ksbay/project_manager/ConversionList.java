@@ -12,8 +12,8 @@ public class ConversionList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conversion_list);
     }
-    public void gotoConversions (View view) {
-        Intent intent = new Intent(this, Conversions.class);
+    public void gotoLengthConversions (View view) {
+        Intent intent = new Intent(this, LengthConversion.class);
         startActivity(intent);
     }
     public void gotoVolumeConversions (View view) {
