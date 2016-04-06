@@ -9,16 +9,29 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.ksbay.project_manager.WittAct"
-    tools:showIn="@layout/activity_witt">
+    tools:context=".ConversionList"
+    tools:showIn="@layout/activity_conversion_list">
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button3"
+        android:text="Length"
+        android:id="@+id/textView5"
+        android:textSize="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="132dp" />
+        android:onClick="gotoLengthConversions"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:id="@+id/textView6"
+        android:textSize="50dp"
+        android:onClick="gotoVolumeConversions"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
 </RelativeLayout>

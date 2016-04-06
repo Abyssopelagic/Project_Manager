@@ -18,9 +18,12 @@ public class LengthConversion extends AppCompatActivity {
         //default convert to Meter
         double initialToMeter = 0.0;
         double finalConvert = 0.0;
+        double numberFrom = 0.0;
 
         TextView From = (TextView) findViewById(R.id.numFrom);
-        Double numberFrom = Double.parseDouble(From.getText().toString());
+        if (!From.getText().toString().matches("")) {
+            numberFrom = Double.parseDouble(From.getText().toString());
+        }
 
         Spinner spinnerFrom = (Spinner) findViewById(R.id.spinnerFrom);
         String toConvert = spinnerFrom.getSelectedItem().toString();
@@ -77,6 +80,7 @@ public class LengthConversion extends AppCompatActivity {
         }
         TextView convertedbox = (TextView) findViewById(R.id.numTo);
         convertedbox.setText(String.valueOf(finalConvert));
+
 
     }
 }

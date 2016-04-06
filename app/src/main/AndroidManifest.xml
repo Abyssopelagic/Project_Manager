@@ -19,10 +19,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WittAct"
-            android:label="@string/title_activity_witt"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Calculator"
             android:label="@string/title_activity_calculator"
             android:parentActivityName=".MainActivity"
@@ -40,7 +36,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ksbay.project_manager.MainActivity" />
         </activity>
-        <activity android:name=".ConversionList" />
+        <activity android:name=".ConversionList"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".VolumeConversion"
             android:label="@string/title_activity_volume_conversion"
@@ -50,7 +47,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ksbay.project_manager.ConversionList" />
         </activity>
-        <activity android:name=".LengthConversion"></activity>
+        <activity android:name=".LengthConversion"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

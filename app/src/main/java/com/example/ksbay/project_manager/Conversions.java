@@ -25,8 +25,6 @@ public class Conversions extends AppCompatActivity implements OnItemSelectedList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_conversions);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         //SPINNERFROM
         Spinner spinnerFrom = (Spinner) findViewById(R.id.spinnerFrom);
 
