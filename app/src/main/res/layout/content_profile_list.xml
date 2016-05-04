@@ -13,4 +13,71 @@
     tools:showIn="@layout/activity_profile_list"
     tools:context="com.example.ksbay.project_manager.ProfileList">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/fnametext"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:hint="First Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/lnametext"
+        android:layout_below="@+id/fnametext"
+        android:layout_alignStart="@+id/fnametext"
+        android:layout_marginTop="40dp"
+        android:hint="Last Name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/userID"
+        android:layout_below="@+id/lnametext"
+        android:layout_alignStart="@+id/lnametext"
+        android:layout_marginTop="40dp"
+        android:hint="ID" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter New"
+        android:id="@+id/submitname"
+        android:layout_marginTop="52dp"
+        android:onClick="addMember"
+        android:width="60dp"
+        android:layout_below="@+id/nameout"
+        android:layout_toStartOf="@+id/searchname" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/searchname"
+        android:layout_alignTop="@+id/submitname"
+        android:onClick="searchUser"
+        android:width="60dp"
+        android:layout_alignEnd="@+id/nameout"
+        android:layout_alignBottom="@+id/submitname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameout"
+        android:textSize="20dp"
+        android:layout_below="@+id/userID"
+        android:layout_alignStart="@+id/userID"
+        android:layout_alignEnd="@+id/userID"
+        android:layout_marginTop="50dp"
+        android:hint="Search Output" />
+
 </RelativeLayout>

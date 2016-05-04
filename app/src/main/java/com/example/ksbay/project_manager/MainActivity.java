@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ConversionList.class);
         startActivity(intent);
     }
+    public void gotoAddMember (View view) {
+        Intent intent = new Intent(this, ProfileList.class);
+        startActivity(intent);
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

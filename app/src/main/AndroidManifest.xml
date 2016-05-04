@@ -38,6 +38,8 @@
         </activity>
         <activity android:name=".ConversionList"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ProfileList"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".VolumeConversion"
             android:label="@string/title_activity_volume_conversion"
