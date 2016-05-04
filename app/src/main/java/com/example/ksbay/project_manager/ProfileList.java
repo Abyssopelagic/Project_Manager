@@ -37,7 +37,7 @@ public class ProfileList extends AppCompatActivity {
         users.add(new Member("place", "holder"));
     }
 
-    //Attemps at saving and reading save
+
     @Override
     public void onPause() {
         super.onPause();
@@ -50,8 +50,7 @@ public class ProfileList extends AppCompatActivity {
         loadUsers();
 
     }
-    //trying to put object into list cause problems. probably because the onresume sets users as some
-    //weird value
+    //converts to gson and puts in sharedpreferences
     public void saveUsers() {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this.getApplicationContext());
         SharedPreferences.Editor editor = sharedPrefs.edit();
@@ -61,7 +60,7 @@ public class ProfileList extends AppCompatActivity {
         editor.commit();
 
     }
-
+    //loads gson and converts back to object
     public void loadUsers() {
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this.getApplicationContext());
         Gson gson = new Gson();
