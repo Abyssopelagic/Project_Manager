@@ -11,7 +11,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_profile_list"
-    tools:context="com.example.ksbay.project_manager.ProfileList">
+    tools:context="com.example.ksbay.project_manager.ProfileList"
+    android:onClick="clearUsers">
 
     <EditText
         android:layout_width="wrap_content"
@@ -79,5 +80,16 @@
         android:layout_alignEnd="@+id/userID"
         android:layout_marginTop="50dp"
         android:hint="Search Output" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Users"
+        android:id="@+id/button"
+        android:onClick="clearUsers"
+        android:layout_below="@+id/submitname"
+        android:layout_alignStart="@+id/submitname"
+        android:layout_alignEnd="@+id/searchname"
+        android:layout_marginTop="10dp" />
 
 </RelativeLayout>
