@@ -36,10 +36,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ksbay.project_manager.MainActivity" />
         </activity>
-        <activity android:name=".ConversionList"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".ProfileList"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ConversionList"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".VolumeConversion"
             android:label="@string/title_activity_volume_conversion"
@@ -49,8 +48,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ksbay.project_manager.ConversionList" />
         </activity>
-        <activity android:name=".LengthConversion"
+        <activity
+            android:name=".LengthConversion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileList"
+            android:label="@string/title_activity_profile_list"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ksbay.project_manager.MainActivity" />
         </activity>
     </application>
 
