@@ -5,4 +5,5 @@
     <string name="title_activity_calculator">Calculator</string>
     <string name="title_activity_conversions">Conversions</string>
     <string name="title_activity_volume_conversion">VolumeConversion</string>
+    <string name="title_activity_profile_list">ProfileList</string>
 </resources>
