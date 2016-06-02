@@ -1,0 +1,6 @@
+Notes for creating user profiles.
+
+using map to map name to a map.
+then using the map the profile name is mapped to, add anything needed for profile to that map.
+It will be a nested map with the outter map being profile names mapped to maps.
+and the inner maps will hold only the profile information.
